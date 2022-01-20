@@ -1,0 +1,68 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.2);
+    font-size: 20px;
+    white-space: nowrap;;
+  }
+
+  body {
+    background: url(../img/background.jpg)no-repeat center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.navbar {
+    background: rgba(0,0,0,.2);
+    padding: 16px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.produk-detail {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.produk-detail-kanan h5{
+    font-weight:normal;
+}
+.produk-detail-kanan{
+    background-color: rgba(0, 0, 0, 0.459);
+    padding:20px;
+    border-radius:10px;
+}
+
+.box-produk{
+    width: 80%;
+    height: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius:10px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.no{
+    border-bottom: 2px solid white;
+    width: 10%;
+    height:90px;
+
+}
+.nama{
+    border-bottom: 2px solid white;
+    width:65%;
+    height:90px;
+
+}
+.delete{
+    border-bottom: 2px solid white;
+    width:25%;
+    height:90px;
+}
+
+

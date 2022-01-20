@@ -1,0 +1,38 @@
+body {
+    background: url(../img/background.jpg)no-repeat center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.2);
+    font-size: 20px;
+    white-space: nowrap;;
+  }
+
+  .navbar {
+    background: rgba(0,0,0,.2);
+    padding: 8px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.album{
+    background: rgba(0,0,0,.2);
+    white-space: nowrap;
+}
+
+.listing{
+    background: rgba(0,0,0,.2);
+    white-space: nowrap;
+}
+
+div {
+    display: block;
+}
+
